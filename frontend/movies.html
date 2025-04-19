@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Películas</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="container mt-4">
+  <h1 class="mb-4">Gestión de Películas</h1>
+  
+  <button class="btn btn-primary mb-3" onclick="showMovieForm()">Nueva Película</button>
+
+  <div id="movieForm" style="display: none;">
+    <!-- Formulario dinámico se insertará aquí -->
+  </div>
+
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>Título</th>
+        <th>Año</th>
+        <th>Director</th>
+        <th>Rating</th>
+        <th>Acciones</th>
+      </tr>
+    </thead>
+    <tbody id="moviesList"></tbody>
+  </table>
+
+  <script src="js/api.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
