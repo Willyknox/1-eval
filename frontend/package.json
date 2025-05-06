@@ -4,7 +4,8 @@
     "bootstrap": "^5.3.5",
     "express": "^5.1.0",
     "nodemon": "^3.1.10",
-    "toastify": "^2.0.1"
+    "toastify": "^2.0.1",
+      "node-fetch": "^3.3.2"
   },
   "name": "frontend",
   "version": "1.0.0",
