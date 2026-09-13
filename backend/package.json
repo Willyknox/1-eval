@@ -15,5 +15,10 @@
     "nodemon": "^3.1.10",
     "sqlite3": "^5.1.7"
   },
-  "keywords": []
+  "keywords": [],
+  "overrides": {
+    "tar": "^7.5.21",
+    "brace-expansion": "^2.1.4",
+    "ip-address": "^10.3.1"
+  }
 }
