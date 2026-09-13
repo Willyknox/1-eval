@@ -6,7 +6,7 @@
   "author": "Guillermo Labara",
   "license": "ISC",
   "dependencies": {
-    "axios": "^1.9.0",
+    "axios": "^1.16.0",
     "bootstrap": "^5.3.5",
     "express": "^5.1.0",
     "nodemon": "^3.1.10",
@@ -16,5 +16,10 @@
   "scripts": {
     "start": "parcel index.html register.html --open",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "overrides": {
+    "browserslist": "^4.28.7",
+    "brace-expansion": "^2.1.4",
+    "form-data": "^4.0.6"
   }
 }
